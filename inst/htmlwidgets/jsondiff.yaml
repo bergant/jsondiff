@@ -1,0 +1,10 @@
+dependencies:
+- name: "jsondiff"
+  version: "0.2.4"
+  src: htmlwidgets/lib/jsondiff/
+  script:
+    - jsondiffpatch-full.min.js
+    - jsondiffpatch-formatters.min.js
+  stylesheet:
+    - "formatters-styles/html.css"
+    - "formatters-styles/annotated.css"

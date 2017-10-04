@@ -1,0 +1,31 @@
+Package: jsondiff
+Type: Package
+Title: Compare R Objects as JSONs
+Version: 0.1.0
+Authors@R: c(
+      person(
+        "Benjamín", "Eidelman"
+        , role = c("aut", "cph")
+        , comment = "jsondiffpatch library in htmlwidgets/lib, https://github.com/benjamine/jsondiffpatch"
+      ),
+      person(
+        "Darko", "Bergant"
+        , role = c("aut", "cre")
+        , comment = "R interface"
+        , email = "darko.bergant@gmail.com"
+      )
+    )
+Description: Finds and renders difference in values between JSONs. Diffing R
+  objects (like lists and dataframes) is also supported by automatic conversion 
+  to JSON. It is implemented as an R interface to
+  [jsondiffpatch](https://github.com/benjamine/jsondiffpatch), powered by
+  [htmlwidgets](http://www.htmlwidgets.org/) framework.
+License: MIT + file LICENSE
+Imports:
+    htmlwidgets,
+    jsonlite
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/bergant/jsondiff
+BugReports: https://github.com/bergant/jsondiff/issues
+RoxygenNote: 6.0.1

@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^readme\.Rmd$
+^readme\.html$
+^readme.md$
+^img$
+^docs$
+^\.travis\.yml$
+readme_files
