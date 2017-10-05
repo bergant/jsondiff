@@ -62,7 +62,7 @@ jsondiff <- function(
   if(all(!is.character(x1), length(x1) > 1,
          !is.character(x2), length(x2) > 1)) {
     if(is.null(json_opt)) {
-      json_opt = json_options()
+      json_opt <- json_options()
     }
     x1 <- do.call(jsonlite::toJSON, c(list(x = x1), json_opt))
     x2 <- do.call(jsonlite::toJSON, c(list(x = x2), json_opt))

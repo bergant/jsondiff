@@ -29,3 +29,4 @@ LazyData: true
 URL: https://github.com/bergant/jsondiff
 BugReports: https://github.com/bergant/jsondiff/issues
 RoxygenNote: 6.0.1
+Suggests: testthat
